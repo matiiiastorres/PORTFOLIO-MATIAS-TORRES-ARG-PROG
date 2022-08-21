@@ -1,0 +1,48 @@
+.row{
+    padding: 20px;
+    background-color: #000000;
+}
+.contenedor{
+    width: auto;
+}
+.parte1, .parte2{
+    display: inline-block;
+    text-align: justify;
+}
+.img-proyecto{
+   margin-top: -44vh;
+   width: 100%;
+}
+.titulo{
+    color: gray;
+}
+.titulo{
+    color:whitesmoke
+}
+.descripcion{
+    size: 40px;
+    color: whitesmoke;
+}
+p{
+    size:30px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+@media (max-width: 575px){
+    .img-proyecto{
+        margin-top: 7vh;
+    }
+    .parte1, .parte2{
+        
+        
+            display: inline-block;
+            text-align:center;
+        
+    }
+    .titulo{
+        color:whitesmoke;
+        text-align:center;
+    }
+    
+}

@@ -1,0 +1,53 @@
+.containerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+   
+}
+
+#logoAP{
+    width: 220px;
+}
+img{
+    width: 50px;
+}
+.btn{
+    border-width: medium;
+}
+
+
+.social-media{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(147, 147, 147);
+  }
+  .social-media-icon:hover{
+    background: #474545;
+    color: #000000;
+  }
+  .social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+  }
+
+
+
+
+
+/*--- Para la vista de celular ---*/
+@media (max-width: 575px){
+   .social-media{
+    display: none;
+   }
+    
+}
